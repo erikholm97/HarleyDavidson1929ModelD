@@ -1,0 +1,36 @@
+body{
+    background-color:  #556B2F;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-content
+{
+    height: 100vh;   
+}
+
+img{
+    width: 100%;
+    transition: transform .2s;    
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+.topnav{    
+    background-color: black;
+    height: 60px;
+    color: #556B2F;
+    text-align: center;
+}
+
+.topnav a{    
+    padding: 14px 16px;
+    font-size: 55px;
+    font-style: italic;
+}
+
+iframe{
+    width: 100%;
+}
